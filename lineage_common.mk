@@ -30,6 +30,10 @@ PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
 PRODUCT_PACKAGES += \
     GoogleParts
 
+# Tethering
+PRODUCT_PACKAGES += \
+    TetheringOverlay
+
 # Touch
 include hardware/google/pixel/touch/device.mk
 

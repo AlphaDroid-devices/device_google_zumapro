@@ -29,4 +29,5 @@
         <item>restart_fastboot</item>
         <item>restart_bootloader</item>
     </string-array>
+
 </resources>

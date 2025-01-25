@@ -12,7 +12,7 @@ TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE := true
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE := false
 
 # Manifests
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_framework_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/alpha/config/device_framework_matrix.xml
 ifneq ($(wildcard vendor/google_devices/*/vintf/adevtool_manifest_vendor.xml),)
 else
 DEVICE_MANIFEST_FILE += \

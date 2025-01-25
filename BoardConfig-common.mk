@@ -13,6 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+# AVB
+BOARD_AVB_ENABLE := true
+BOARD_AVB_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
+
 include build/make/target/board/BoardConfigMainlineCommon.mk
 include build/make/target/board/BoardConfigPixelCommon.mk
 

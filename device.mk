@@ -48,6 +48,9 @@ include device/google/gs-common/fingerprint/fingerprint.mk
 
 include device/google/zumapro/dumpstate/item.mk
 
+# PixelParts
+include packages/apps/PixelParts/device.mk
+
 TARGET_BOARD_PLATFORM := zumapro
 ALLOW_MISSING_DEPENDENCIES := true
 

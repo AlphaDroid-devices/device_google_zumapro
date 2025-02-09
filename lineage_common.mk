@@ -38,4 +38,4 @@ PRODUCT_PACKAGES += \
 include hardware/google/pixel/touch/device.mk
 
 # Google Face Unlock
-$(call inherit-product-if-exists, vendor/google/faceunlock/device.mk)
+$(call inherit-product-if-exists, vendor/google/faceunlock/config.mk)
